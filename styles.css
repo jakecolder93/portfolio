@@ -11,6 +11,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    padding: 10px 0px 10px 0px;
     background: rgb(251,129,63);
     background: radial-gradient(circle, rgba(251,129,63,1) 0%, rgba(255,179,0,0.849191788531819) 100%);
 }
@@ -20,9 +21,18 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: black;
+    transition: all 0.3s ease-out;
 }
 
 #navbar a:hover{
     color: grey;
-    text-shadow: 2px 2px 5px whitesmoke;
+    transform: rotate(6deg);
+}
+
+#home{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
 }
