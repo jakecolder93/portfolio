@@ -50,21 +50,36 @@ body {
     top:0;
 }
 
+@keyframes slideOnScreen {
+    0% {
+        transform: translate(-100%);
+    }
+    100% {
+        transform:translate(0);
+    }
+}
+
 #home-content {
+    animation: 1s ease-out 0s 1 slideOnScreen;
     align-items:center;
     bottom:0;
     color:white;
     display:flex;
-    flex-wrap:wrap;
+    /*flex-wrap:wrap;*/
     font-family:sans-serif;
-    justify-content:center;
+    justify-content:left;
     left:0;
-    padding:20vw;
+    padding:5vw;
     position:fixed;
     right:0;
-    text-align:center;
+    text-align:left;
+    max-width: 500px;
     top:0;
 }
 
-/*
+#home-content p {
+    font-size: 2.5em;
+}
+
+
 
