@@ -9,6 +9,7 @@ body {
 #navbar {
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 #navlinks {
@@ -26,22 +27,44 @@ body {
 #navlinks a {
     text-decoration: none;
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 500;
     display: block;
-    color: black;
+    color: white;
     transition: all 0.3s ease-out;
 }
 
 #navlinks a:hover{
-    color: grey;
+    color: black;
     transform: rotate(6deg);
 }
 
-#home{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#home-image {
     background-image: url(./images/resizedBooks.png);
-    
+    background-repeat:no-repeat;
+    background-size:cover;
+    bottom:0;
+    filter:contrast(.7) brightness(.7);  
+    left:0;
+    position:fixed;
+    right:0;
+    top:0;
 }
+
+#home-content {
+    align-items:center;
+    bottom:0;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    font-family:sans-serif;
+    justify-content:center;
+    left:0;
+    padding:20vw;
+    position:fixed;
+    right:0;
+    text-align:center;
+    top:0;
+}
+
+/*
+
