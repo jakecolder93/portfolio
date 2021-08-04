@@ -1,3 +1,5 @@
+// Allow for smooth scrolling between elements on the page //
+
 let anchorLinks = document.querySelectorAll('a[href^="#"]');
 
 for (let item of anchorLinks){
