@@ -12,6 +12,7 @@ body {
 #navbar {
     width: 100%;
     position: fixed;
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -46,20 +47,20 @@ body {
 #Home {
     width: 100%;
     height: 100vh;
-    overflow:auto;
-    position:relative;
+    position:relative;  
+    scroll-behavior: smooth;
 }
 
 #home-image {
     background-image: url(./images/resizedBooks.png);
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: local;
     background-repeat:no-repeat;
     background-size:cover;
+    height: 100vh;
     bottom:0;
     filter:contrast(.7) brightness(.7);  
     left:0;
-    position:fixed;
     right:0;
     top:0;
 }
@@ -80,7 +81,7 @@ body {
     align-items:center;
     color:white;
     display:flex;
-    position: fixed;
+    position: absolute;  
     font-family:sans-serif;
     text-align:left;
     justify-content:left;
@@ -102,9 +103,8 @@ body {
 #About {
     width: 100%;
     height: 100vh;
-    overflow:auto;
     background-color: cadetblue;
-    position: relative;
+    scroll-behavior: smooth;
 }
 
 
