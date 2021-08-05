@@ -118,15 +118,43 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     height: 50vh;
     width: 100%;
 }
 
 #AbContainer img {
     border-radius: 25%;
-    margin-left: 25px;
+    margin-left: 50px;
 } 
+
+#AbContent {
+    display: block;
+    max-width: 60ch;
+    color: #EEEEEE;
+}
+
+#AbContent h2 {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#AbContent p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 
 
