@@ -14,3 +14,12 @@ for (let item of anchorLinks){
         e.preventDefault()
     })
 }
+
+//Reset animations//
+
+function resetHomeAnimation(){
+    var el = document.getElementById('home-content');
+    el.style.animation = 'none';
+    el.offsetHeight;
+    el.style.animation = null;
+}
