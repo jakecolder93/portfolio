@@ -131,13 +131,13 @@ html ,body {
     margin-left: 50px;
 } 
 
-#AbContent {
+.AbContent {
     display: block;
     max-width: 60ch;
     color: #EEEEEE;
 }
 
-#AbContent h2 {
+.AbContent h2 {
     display: block;
     font-size: 2.5rem;
     font-weight: 600;
@@ -148,7 +148,7 @@ html ,body {
     font-weight: bold;
 }
 
-#AbContent p {
+.AbContent p {
     font-size: 1.25rem;
     font-weight: 400;
     display: block;
@@ -158,5 +158,37 @@ html ,body {
     margin-inline-end: 0px;
 }
 
+#textIcon {   
+    color: gold;
+}
 
 
+
+/*Projects Page*/
+
+#Projects {
+    width: 100%;
+    height: 100vh; 
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #3f3f3f 0%, #7f8c8d 74%);
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Contact Page*/
+#Contact {
+    width: 100%;
+    height: 100vh; 
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #3f3f3f 0%, #7f8c8d 74%);
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -23,3 +23,6 @@ function resetHomeAnimation(){
     el.offsetHeight;
     el.style.animation = null;
 }
+
+
+
